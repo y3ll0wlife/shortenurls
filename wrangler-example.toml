@@ -1,0 +1,17 @@
+name = "shortenurls"
+workers_dev = true
+account_id = ""
+
+main = "build/worker/shim.mjs"
+compatibility_date = "2022-01-20"
+
+[vars]
+WORKERS_RS_VERSION = "0.0.9"
+
+[build]
+command = "cargo install worker-build && worker-build --release"
+
+[[kv_namespaces]]
+binding = ""
+id = ""
+preview_id = ""
