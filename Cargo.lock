@@ -592,6 +592,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "shortenurls"
+version = "0.0.0"
+dependencies = [
+ "cfg-if 0.1.10",
+ "console_error_panic_hook",
+ "hmac",
+ "jwt",
+ "regex",
+ "serde",
+ "serde_json",
+ "sha2",
+ "worker",
+]
+
+[[package]]
 name = "siphasher"
 version = "0.3.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -657,21 +672,6 @@ name = "tinyvec_macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
-
-[[package]]
-name = "todo-worker"
-version = "0.0.0"
-dependencies = [
- "cfg-if 0.1.10",
- "console_error_panic_hook",
- "hmac",
- "jwt",
- "regex",
- "serde",
- "serde_json",
- "sha2",
- "worker",
-]
 
 [[package]]
 name = "typenum"
